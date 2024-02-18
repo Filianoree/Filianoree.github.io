@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta property="og:title" content="bookfinder" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://github.com/Filianoree" />
+    <meta property="og:description" content="a simple bookfinder" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/assets/css/style.css" rel="stylesheet" />
+    <script defer src="/dist/main.js"></script>
+    <title>Simple bookFinder</title>
+  </head>
+  <body>
+    <div class="title-head">
+      <h1>A simple book<span class="title-recolor">Finder</span></h1>
+    </div>
+    <div class="search-container">
+      <input
+        type="text"
+        id="categoryInput"
+        placeholder="Inserisci la categoria..."
+      />
+      <button id="searchButton">Cerca libri</button>
+    </div>
+
+    <ul id="bookList" class="book-list"></ul>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="modalTitle" class="book-title">
+          <h2>Descrizione</h2>
+        </div>
+        <div id="modalDescription" class="book-description"></div>
+      </div>
+    </div>
+  </body>
+</html>
