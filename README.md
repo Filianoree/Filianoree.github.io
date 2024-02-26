@@ -27,3 +27,4 @@ Per utilizzare l'applicazione:
 - JavaScript
 - Fetch API
 - API OpenLibrary
+- Webpack
